@@ -1,0 +1,31 @@
+{
+  "name": "app-dev-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "week-01-formative-assessment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "prettier:check": "npx prettier --check .",
+    "prettier:format": "npx prettier --write ."
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josephhongg/app-dev-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josephhongg/app-dev-practice/issues"
+  },
+  "homepage": "https://github.com/Josephhongg/app-dev-practice#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "3.3.3"
+  }
+}
